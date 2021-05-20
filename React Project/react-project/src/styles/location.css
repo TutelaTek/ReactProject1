@@ -1,0 +1,82 @@
+
+
+iframe{
+  display: block;
+  margin: 40px auto 40px auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+  font-size: 35px;
+  text-align: center;
+}
+.location-cardholder{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.location-card {
+  width: 425px;
+  height: 200px;
+  margin: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: black;
+  background-color: #EBEDF2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .location-cardholder :hover{
+  transform: scale(1.05);
+}
+.location-card :hover{
+  transform: none;
+}
+
+
+.location-title {
+  background-color: #041E54;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.location-title h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+}
+.location-info {
+  padding: 20px;
+
+}
+
+.location-address {
+  
+  text-align: left;
+}
+
+.addLocation {
+  background-color: white;
+  
+}
+
+.plusImage {
+  height: 200px;
+}
+
+.closeButton {
+  display: flex;
+  position: absolute;
+  color: white;
+  padding-top: 20px;
+  margin-left: 400px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  opacity: 0.9;
+}

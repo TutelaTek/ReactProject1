@@ -1,0 +1,96 @@
+menu{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-holder{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+.diner {
+  width:500px;
+  margin: 20px, auto, 20px, auto;
+}
+
+
+
+.items {
+	cursor: pointer;
+	position: relative;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: black;
+  background-color: #EBEDF2;
+  width: 200px;
+  height: 350px;
+  margin:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+
+}
+.card-holder :hover {
+  transform: scale(1.05);
+	z-index: 1;
+}
+.items :hover {
+  transform: none;
+}
+
+.items img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: block;
+  width:200px;
+}
+.items-info {
+  padding: 10px;
+}
+.items h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+}
+.description {
+  width: auto;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-wrap: break-word;
+}
+.price {
+  
+  color:#e8b200;
+}
+
+.addItem {
+  background-color: white;
+}
+
+.closing {
+  display: flex;
+  position: absolute;
+  color: white;
+  padding-top: 20px;
+  margin-left: 175px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  opacity: 0.9;
+}
+
